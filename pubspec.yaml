@@ -1,0 +1,39 @@
+name: Sholar
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  google_fonts: ^0.3.5
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/1.jpg
+    - images/2.jpg
+    - images/amir.jpg
+
+  fonts:
+    - family: Pacifico
+      fonts:
+      - asset: fonts/pacifico-regular.ttf
+
+    - family: Source Sans Pro
+      fonts:
+      - asset: fonts/SourceSansPro-Regular.ttf
